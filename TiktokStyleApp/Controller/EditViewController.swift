@@ -1,28 +1,48 @@
 //
-//  ViewController.swift
+//  EditViewController.swift
 //  TiktokStyleApp
 //
-//  Created by 白石裕幸 on 2021/01/08.
+//  Created by 白石裕幸 on 2021/01/10.
 //
 
 import UIKit
+import AVKit
 
-
-
-class ViewController: UIViewController {
+class EditViewController: UIViewController {
+    
+    
+    var videoUrl:URL?
+    var playerContrller:AVPlayerViewController?
+    var payer:AVPlayer?
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
 
         // Do any additional setup after loading the view.
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
-        //ナビゲーションを消す
         navigationController?.isNavigationBarHidden = true
     }
+    
+    
+    
+    
+    
+    func setupVideoPlayer(url:URL){
+        
+        
+        
+        
+        
+        
+    }
+    
     
 
     /*

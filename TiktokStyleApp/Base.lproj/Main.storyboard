@@ -22,6 +22,9 @@
                                     <constraint firstAttribute="height" constant="100" id="4ru-Fa-FW2"/>
                                 </constraints>
                                 <state key="normal" image="plus"/>
+                                <connections>
+                                    <segue destination="QxJ-6r-a50" kind="show" id="81K-gt-MvN"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -34,18 +37,15 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ilD-v5-gsh"/>
-                    <connections>
-                        <segue destination="QxJ-6r-a50" kind="show" id="0OH-yp-LA3"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="814" y="56"/>
         </scene>
-        <!--View Controller-->
+        <!--Set Up View Controller-->
         <scene sceneID="SFx-ZH-MdT">
             <objects>
-                <viewController id="QxJ-6r-a50" sceneMemberID="viewController">
+                <viewController id="QxJ-6r-a50" customClass="SetUpViewController" customModule="TiktokStyleApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qRk-ld-YjR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -57,6 +57,9 @@
                                     <constraint firstAttribute="height" constant="80" id="xIq-ce-hVj"/>
                                 </constraints>
                                 <state key="normal" image="flip"/>
+                                <connections>
+                                    <action selector="cameraSwitchTapped:" destination="QxJ-6r-a50" eventType="touchUpInside" id="gAH-Jb-SPu"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2O6-Ra-vtY">
                                 <rect key="frame" x="20" y="762" width="80" height="80"/>
@@ -65,12 +68,24 @@
                                     <constraint firstAttribute="height" constant="80" id="Xqz-XJ-FZw"/>
                                 </constraints>
                                 <state key="normal" image="album"/>
+                                <connections>
+                                    <action selector="openAlbum:" destination="QxJ-6r-a50" eventType="touchUpInside" id="iZO-gZ-4Ua"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JQy-gw-k0R" customClass="SwiftyRecordButton">
+                                <rect key="frame" x="140" y="742" width="134" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="PFl-aU-Sej"/>
+                                </constraints>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="mGk-8o-3Lw"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="mGk-8o-3Lw" firstAttribute="trailing" secondItem="YH8-sn-rQc" secondAttribute="trailing" constant="20" id="DlR-gr-5PY"/>
+                            <constraint firstItem="JQy-gw-k0R" firstAttribute="leading" secondItem="2O6-Ra-vtY" secondAttribute="trailing" constant="40" id="aYg-M7-D7a"/>
+                            <constraint firstItem="mGk-8o-3Lw" firstAttribute="bottom" secondItem="JQy-gw-k0R" secondAttribute="bottom" constant="20" id="eSF-NI-Api"/>
+                            <constraint firstItem="YH8-sn-rQc" firstAttribute="leading" secondItem="JQy-gw-k0R" secondAttribute="trailing" constant="40" id="ek7-C7-lPB"/>
                             <constraint firstItem="mGk-8o-3Lw" firstAttribute="bottom" secondItem="YH8-sn-rQc" secondAttribute="bottom" constant="20" id="grE-CN-aou"/>
                             <constraint firstItem="mGk-8o-3Lw" firstAttribute="bottom" secondItem="2O6-Ra-vtY" secondAttribute="bottom" constant="20" id="lLa-9z-qtW"/>
                             <constraint firstItem="2O6-Ra-vtY" firstAttribute="leading" secondItem="mGk-8o-3Lw" secondAttribute="leading" constant="20" id="pG5-0V-rHW"/>
@@ -78,6 +93,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="zLm-lU-Zr5"/>
                     <connections>
+                        <outlet property="captureButton" destination="JQy-gw-k0R" id="ucv-w4-gKC"/>
+                        <outlet property="flipCameraButton" destination="YH8-sn-rQc" id="zUv-I1-ZWt"/>
                         <segue destination="MhD-qF-vew" kind="show" id="hK7-hQ-v3Z"/>
                     </connections>
                 </viewController>
@@ -103,10 +120,10 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="63.616071428571423"/>
         </scene>
-        <!--View Controller-->
+        <!--Edit View Controller-->
         <scene sceneID="SDD-Zs-MhA">
             <objects>
-                <viewController id="MhD-qF-vew" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="editVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="MhD-qF-vew" customClass="EditViewController" customModule="TiktokStyleApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="18B-TM-J54">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -253,7 +270,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qtu-RD-PCS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3566.666666666667" y="63.616071428571423"/>
+            <point key="canvasLocation" x="3749" y="64"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="NvL-cW-e3u">
