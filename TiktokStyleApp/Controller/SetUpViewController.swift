@@ -144,7 +144,7 @@ class SetUpViewController: SwiftyCamViewController,SwiftyCamViewControllerDelega
 
            //値を渡しながら画面遷移
            let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-           let editVC = storyboard.instantiateViewController(withIdentifier: "EditViewController") as! EditViewController
+           let editVC = storyboard.instantiateViewController(withIdentifier: "editVC") as! EditViewController
            videoURL = url
            editVC.videoUrl = videoURL
            self.navigationController?.pushViewController(editVC, animated: true)

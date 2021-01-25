@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		08DAA21127B3533E04EE8A13 /* Pods_TiktokStyleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6387B26FA96AE0183F11769E /* Pods_TiktokStyleApp.framework */; };
+		3B5E3DD025BE7FAB00F56F40 /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E3DCF25BE7FAB00F56F40 /* SelectViewController.swift */; };
+		3B5E3DD325BECF4500F56F40 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E3DD225BECF4500F56F40 /* ShareViewController.swift */; };
 		3B87F7AA25A89954008CB2F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87F7A925A89954008CB2F5 /* AppDelegate.swift */; };
 		3B87F7AC25A89954008CB2F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87F7AB25A89954008CB2F5 /* SceneDelegate.swift */; };
 		3B87F7B125A89954008CB2F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B87F7AF25A89954008CB2F5 /* Main.storyboard */; };
@@ -25,6 +27,8 @@
 
 /* Begin PBXFileReference section */
 		1132B469EFB7041C10A3CF10 /* Pods-TiktokStyleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiktokStyleApp.debug.xcconfig"; path = "Target Support Files/Pods-TiktokStyleApp/Pods-TiktokStyleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		3B5E3DCF25BE7FAB00F56F40 /* SelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
+		3B5E3DD225BECF4500F56F40 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 		3B87F7A625A89954008CB2F5 /* TiktokStyleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TiktokStyleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B87F7A925A89954008CB2F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B87F7AB25A89954008CB2F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,6 +101,8 @@
 				3B87F7CC25A89F95008CB2F5 /* ViewController.swift */,
 				3B87F7D525A8B9F2008CB2F5 /* SetUpViewController.swift */,
 				3B8AB8C925AAF9A000B24FAF /* EditViewController.swift */,
+				3B5E3DCF25BE7FAB00F56F40 /* SelectViewController.swift */,
+				3B5E3DD225BECF4500F56F40 /* ShareViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -264,9 +270,11 @@
 				3B87F7E525A8BCA6008CB2F5 /* AuthCheck.swift in Sources */,
 				3B87F7CD25A89F95008CB2F5 /* ViewController.swift in Sources */,
 				3B87F7AA25A89954008CB2F5 /* AppDelegate.swift in Sources */,
+				3B5E3DD325BECF4500F56F40 /* ShareViewController.swift in Sources */,
 				3B87F7DE25A8BC50008CB2F5 /* LoadingView.swift in Sources */,
 				3B87F7E825A8BCB4008CB2F5 /* VAVideoCompressor.swift in Sources */,
 				3B87F7DF25A8BC50008CB2F5 /* SwiftyRecordButton.swift in Sources */,
+				3B5E3DD025BE7FAB00F56F40 /* SelectViewController.swift in Sources */,
 				3B87F7AC25A89954008CB2F5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
