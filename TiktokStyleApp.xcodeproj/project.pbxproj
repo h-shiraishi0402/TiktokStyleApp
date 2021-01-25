@@ -3,29 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		08DAA21127B3533E04EE8A13 /* Pods_TiktokStyleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6387B26FA96AE0183F11769E /* Pods_TiktokStyleApp.framework */; };
+		3B5E3DD025BE7FAB00F56F40 /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E3DCF25BE7FAB00F56F40 /* SelectViewController.swift */; };
+		3B5E3DD325BECF4500F56F40 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E3DD225BECF4500F56F40 /* ShareViewController.swift */; };
 		3B87F7AA25A89954008CB2F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87F7A925A89954008CB2F5 /* AppDelegate.swift */; };
 		3B87F7AC25A89954008CB2F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87F7AB25A89954008CB2F5 /* SceneDelegate.swift */; };
-		3B87F7AE25A89954008CB2F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87F7AD25A89954008CB2F5 /* ViewController.swift */; };
 		3B87F7B125A89954008CB2F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B87F7AF25A89954008CB2F5 /* Main.storyboard */; };
 		3B87F7B325A89958008CB2F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B87F7B225A89958008CB2F5 /* Assets.xcassets */; };
 		3B87F7B625A89958008CB2F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B87F7B425A89958008CB2F5 /* LaunchScreen.storyboard */; };
+		3B87F7CD25A89F95008CB2F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87F7CC25A89F95008CB2F5 /* ViewController.swift */; };
+		3B87F7D625A8B9F2008CB2F5 /* SetUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87F7D525A8B9F2008CB2F5 /* SetUpViewController.swift */; };
+		3B87F7DE25A8BC50008CB2F5 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87F7DC25A8BC50008CB2F5 /* LoadingView.swift */; };
+		3B87F7DF25A8BC50008CB2F5 /* SwiftyRecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87F7DD25A8BC50008CB2F5 /* SwiftyRecordButton.swift */; };
+		3B87F7E425A8BCA6008CB2F5 /* MusicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87F7E225A8BCA6008CB2F5 /* MusicModel.swift */; };
+		3B87F7E525A8BCA6008CB2F5 /* AuthCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87F7E325A8BCA6008CB2F5 /* AuthCheck.swift */; };
+		3B87F7E825A8BCB4008CB2F5 /* VAVideoCompressor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87F7E725A8BCB4008CB2F5 /* VAVideoCompressor.swift */; };
+		3B8AB8CA25AAF9A000B24FAF /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8AB8C925AAF9A000B24FAF /* EditViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1132B469EFB7041C10A3CF10 /* Pods-TiktokStyleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiktokStyleApp.debug.xcconfig"; path = "Target Support Files/Pods-TiktokStyleApp/Pods-TiktokStyleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		3B5E3DCF25BE7FAB00F56F40 /* SelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
+		3B5E3DD225BECF4500F56F40 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 		3B87F7A625A89954008CB2F5 /* TiktokStyleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TiktokStyleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B87F7A925A89954008CB2F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B87F7AB25A89954008CB2F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3B87F7AD25A89954008CB2F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3B87F7B025A89954008CB2F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B87F7B225A89958008CB2F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B87F7B525A89958008CB2F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B87F7B725A89958008CB2F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B87F7CC25A89F95008CB2F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B87F7D525A8B9F2008CB2F5 /* SetUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUpViewController.swift; sourceTree = "<group>"; };
+		3B87F7DC25A8BC50008CB2F5 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		3B87F7DD25A8BC50008CB2F5 /* SwiftyRecordButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyRecordButton.swift; sourceTree = "<group>"; };
+		3B87F7E225A8BCA6008CB2F5 /* MusicModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicModel.swift; sourceTree = "<group>"; };
+		3B87F7E325A8BCA6008CB2F5 /* AuthCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthCheck.swift; sourceTree = "<group>"; };
+		3B87F7E725A8BCB4008CB2F5 /* VAVideoCompressor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VAVideoCompressor.swift; sourceTree = "<group>"; };
+		3B8AB8C925AAF9A000B24FAF /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
 		6387B26FA96AE0183F11769E /* Pods_TiktokStyleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TiktokStyleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B30610ADA4B0A7F391E51808 /* Pods-TiktokStyleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiktokStyleApp.release.xcconfig"; path = "Target Support Files/Pods-TiktokStyleApp/Pods-TiktokStyleApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,9 +81,12 @@
 		3B87F7A825A89954008CB2F5 /* TiktokStyleApp */ = {
 			isa = PBXGroup;
 			children = (
+				3B87F7E125A8BC86008CB2F5 /* Util */,
+				3B87F7CB25A89F43008CB2F5 /* Model */,
+				3B87F7CA25A89F3D008CB2F5 /* View */,
+				3B87F7C925A89F26008CB2F5 /* Controller */,
 				3B87F7A925A89954008CB2F5 /* AppDelegate.swift */,
 				3B87F7AB25A89954008CB2F5 /* SceneDelegate.swift */,
-				3B87F7AD25A89954008CB2F5 /* ViewController.swift */,
 				3B87F7AF25A89954008CB2F5 /* Main.storyboard */,
 				3B87F7B225A89958008CB2F5 /* Assets.xcassets */,
 				3B87F7B425A89958008CB2F5 /* LaunchScreen.storyboard */,
@@ -74,13 +95,50 @@
 			path = TiktokStyleApp;
 			sourceTree = "<group>";
 		};
+		3B87F7C925A89F26008CB2F5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B87F7CC25A89F95008CB2F5 /* ViewController.swift */,
+				3B87F7D525A8B9F2008CB2F5 /* SetUpViewController.swift */,
+				3B8AB8C925AAF9A000B24FAF /* EditViewController.swift */,
+				3B5E3DCF25BE7FAB00F56F40 /* SelectViewController.swift */,
+				3B5E3DD225BECF4500F56F40 /* ShareViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B87F7CA25A89F3D008CB2F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3B87F7DC25A8BC50008CB2F5 /* LoadingView.swift */,
+				3B87F7DD25A8BC50008CB2F5 /* SwiftyRecordButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3B87F7CB25A89F43008CB2F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B87F7E325A8BCA6008CB2F5 /* AuthCheck.swift */,
+				3B87F7E225A8BCA6008CB2F5 /* MusicModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B87F7E125A8BC86008CB2F5 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				3B87F7E725A8BCB4008CB2F5 /* VAVideoCompressor.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		88C5AE7C728C8F365D1480EF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				1132B469EFB7041C10A3CF10 /* Pods-TiktokStyleApp.debug.xcconfig */,
 				B30610ADA4B0A7F391E51808 /* Pods-TiktokStyleApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -206,8 +264,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B87F7AE25A89954008CB2F5 /* ViewController.swift in Sources */,
+				3B8AB8CA25AAF9A000B24FAF /* EditViewController.swift in Sources */,
+				3B87F7D625A8B9F2008CB2F5 /* SetUpViewController.swift in Sources */,
+				3B87F7E425A8BCA6008CB2F5 /* MusicModel.swift in Sources */,
+				3B87F7E525A8BCA6008CB2F5 /* AuthCheck.swift in Sources */,
+				3B87F7CD25A89F95008CB2F5 /* ViewController.swift in Sources */,
 				3B87F7AA25A89954008CB2F5 /* AppDelegate.swift in Sources */,
+				3B5E3DD325BECF4500F56F40 /* ShareViewController.swift in Sources */,
+				3B87F7DE25A8BC50008CB2F5 /* LoadingView.swift in Sources */,
+				3B87F7E825A8BCB4008CB2F5 /* VAVideoCompressor.swift in Sources */,
+				3B87F7DF25A8BC50008CB2F5 /* SwiftyRecordButton.swift in Sources */,
+				3B5E3DD025BE7FAB00F56F40 /* SelectViewController.swift in Sources */,
 				3B87F7AC25A89954008CB2F5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,7 +433,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "shiraishi1990.h-com.gmail.TiktokStyleApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -386,7 +453,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "shiraishi1990.h-com.gmail.TiktokStyleApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
